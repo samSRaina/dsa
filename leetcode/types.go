@@ -6,6 +6,13 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// Tree Node for a BST
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
 // Set type
 type ListNodeSet map[*ListNode]struct{}
 
