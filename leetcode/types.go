@@ -17,3 +17,10 @@ type TreeNode struct {
 type ListNodeSet map[*ListNode]struct{}
 
 type IntSet map[int]struct{}
+
+// Leetcode 138. Copy list with random pointer
+type Node struct {
+	Val    int
+	Next   *Node
+	Random *Node
+}

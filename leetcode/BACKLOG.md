@@ -1,0 +1,3 @@
+- [solve again](leetcode/0141_has_cycle.go)
+  - sep22/2026
+  - use [Teleporting Turtle] algorithm to create solution
